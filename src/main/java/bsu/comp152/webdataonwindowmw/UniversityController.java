@@ -55,7 +55,7 @@ public class UniversityController implements Initializable {
         ListControl.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<DataHandler.UniversityDataType>() {
             @Override
             public void changed(ObservableValue<? extends DataHandler.UniversityDataType> observableValue, DataHandler.UniversityDataType universityDataType, DataHandler.UniversityDataType t1) {
-                
+
             }
         });
     }
